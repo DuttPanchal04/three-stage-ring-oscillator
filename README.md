@@ -29,6 +29,7 @@ A 3-stage ring oscillator is a digital circuit formed by connecting an odd numbe
 └── README.md           # Project documentation
 ```
 ## 🛠️ Design Workflow in Electric VLSI
+
 ### 1. 🧩 Schematic Design
 - Open Electric VLSI
 - Create a new cell and choose schematic view
@@ -38,11 +39,15 @@ A 3-stage ring oscillator is a digital circuit formed by connecting an odd numbe
 - Add power rails: vdd and gnd
 - Validate connections using built-in Electric checks
 
+![3 Stage Ring Oscillator Schematic](https://github.com/user-attachments/assets/740f5cf5-3507-4239-8444-2362b2f9d44e)
+
 ### 2. 🧱 Layout Design
 - Create another new cell and choose layout view
 - Design each inverter with:
 - pMOS on top (in p-well)
 - nMOS on bottom (in n-well)
+
+![3 Stage Ring Oscillator Layout](https://github.com/user-attachments/assets/ef795d84-c7b7-4c5a-9700-38a1089a7c97)
 
 #### Use:
 
