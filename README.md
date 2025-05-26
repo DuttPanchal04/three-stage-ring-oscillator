@@ -25,8 +25,7 @@ A 3-stage ring oscillator is a digital circuit formed by connecting an odd numbe
 
 ```plaintext
 📁 3-Stage-Ring-Oscillator-ElectricVLSI
-├── ring_osc.sch        # Schematic file
-├── ring_osc.lay        # Layout file
+├── RINGOSC3.jelib        # Project library file ( Includes Schematics and Layouts )
 └── README.md           # Project documentation
 ```
 ## 🛠️ Design Workflow in Electric VLSI
